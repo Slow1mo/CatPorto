@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body{
+  padding-top:0px;
+  margin-top: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#left .nav-link.active,
+#left .nav-link:hover,
+#left .nav-link:focus{
+  color: #111;
+  border-bottom: 1px #ffffff groove;
+}
