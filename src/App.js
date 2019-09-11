@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import ReactPlayer from 'react-player';
+
 
 class App extends React.Component {
   render() {
@@ -15,7 +17,7 @@ class App extends React.Component {
                 >
                   <li class="nav-item">
                     <a href="#sec1" class="nav-link active pl-0 text-white">
-                      One
+                      3D Showreel
                     </a>
                   </li>
                   <li class="nav-item">
@@ -68,52 +70,12 @@ class App extends React.Component {
                       id="tab1"
                       role="tabpanel"
                     >
-                      <h2 class="mb-3">Insert Text</h2>
+                      <h2 class="mb-3">Insert nice text here</h2>
 
                       <div class="anchor" id="sec1"></div>
                       <h5>One</h5>
                       <p>
-                        Sriracha biodiesel taxidermy organic post-ironic,
-                        Intelligentsia salvia mustache 90's code editing brunch.
-                        Butcher polaroid VHS art party, hashtag Brooklyn deep v
-                        PBR narwhal sustainable mixtape swag wolf squid tote
-                        bag. Tote bag cronut semiotics, raw denim deep v
-                        taxidermy messenger bag. Tofu YOLO Etsy, direct trade
-                        ethical Odd Future jean shorts paleo. Forage Shoreditch
-                        tousled aesthetic irony, street art organic Bushwick
-                        artisan cliche semiotics ugh synth chillwave meditation.
-                        Shabby chic lomo plaid vinyl chambray Vice. Vice
-                        sustainable cardigan, Williamsburg master cleanse hella
-                        DIY 90's blog.
-                      </p>
-
-                      <p>
-                        Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher
-                        street art Carles, stumptown gluten-free Kickstarter
-                        artisan Wes Anderson wolf pug. Godard sustainable you
-                        probably haven't heard of them, vegan farm-to-table
-                        Williamsburg slow-carb readymade disrupt deep v.
-                        Meggings seitan Wes Anderson semiotics, cliche American
-                        Apparel whatever. Helvetica cray plaid, vegan brunch
-                        Banksy leggings +1 direct trade. Wayfarers codeply PBR
-                        selfies. Banh mi McSweeney's Shoreditch selfies, forage
-                        fingerstache food truck occupy YOLO Pitchfork fixie
-                        iPhone fanny pack art party Portland.
-                      </p>
-
-                      <p>
-                        Sriracha biodiesel taxidermy organic post-ironic,
-                        Intelligentsia salvia mustache 90's code editing brunch.
-                        Butcher polaroid VHS art party, hashtag Brooklyn deep v
-                        PBR narwhal sustainable mixtape swag wolf squid tote
-                        bag. Tote bag cronut semiotics, raw denim deep v
-                        taxidermy messenger bag. Tofu YOLO Etsy, direct trade
-                        ethical Odd Future jean shorts paleo. Forage Shoreditch
-                        tousled aesthetic irony, street art organic Bushwick
-                        artisan cliche semiotics ugh synth chillwave meditation.
-                        Shabby chic lomo plaid vinyl chambray Vice. Vice
-                        sustainable cardigan, Williamsburg master cleanse hella
-                        DIY 90's blog.
+                      <ReactPlayer url='https://vimeo.com/335893726' playing />
                       </p>
 
                       <div class="anchor" id="sec2"></div>
@@ -423,7 +385,6 @@ class App extends React.Component {
             </main>
           </div>
         </div>
-        
       </div>
     );
   }
